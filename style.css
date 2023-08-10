@@ -296,6 +296,11 @@ header {
         font-size: 10px;
     }
 
+    .elemento1 {
+        width: 10em;
+        height: 10em;
+    }
+
     .elemento2{
         display: none;
     }
