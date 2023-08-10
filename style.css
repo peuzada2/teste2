@@ -172,7 +172,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 450px;
+    height: 350px;
     width: 100%;
 }
 
@@ -270,7 +270,7 @@ header {
         width: 100%;
     }
 
-    .imgntc1 {
+    .imgntc2, .imgntc3 {
         height: 200px;
     }
 }
