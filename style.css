@@ -25,6 +25,10 @@ header {
     height: 180px;
 }
 
+a {
+    color: black;
+}
+
 .background {
     display: flex;
     align-items: center;
@@ -163,7 +167,7 @@ header {
 }
 
 .card {
-    width: 45%;
+    width: 48%;
     gap: 3em;
 }
 
@@ -182,6 +186,46 @@ header {
 
 .imgntc3 {
     background-image: url(imagens/Layer\ 22.png);
+}
+
+#line2, #line3 {
+    background-image: linear-gradient(90deg, #76c7d0, #6660a6);
+}
+
+/*FOOTER*/
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+footer > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fc4c02;
+    height: 200px;
+    width: 100%;
+}
+
+.logofooter {
+    display: flex;
+    background-image: url(imagens/logo_assinatura.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 350px;
+    height: 100px;
+}
+
+.direitosautorais {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 50%;
 }
 
 /*DESKTOPS HD*/
@@ -273,6 +317,14 @@ header {
     .imgntc2, .imgntc3 {
         height: 200px;
     }
+
+    footer {
+        width: 100%;
+    }
+
+    .direitosautorais {
+        font-size: 15px;
+    }
 }
 
 @media only screen and (max-width: 700px) and (min-width: 0px) {
@@ -320,7 +372,7 @@ header {
 
     .card {
         width: 48%;
-        height: 350px;
+        height: 270px;
     }
     
     #titulo2, #titulo3 {
@@ -343,6 +395,10 @@ header {
         height: 200px;
         width: 100%;
     }
+
+    footer {
+        width: 100%;
+    }
 }
 
 
@@ -356,8 +412,8 @@ header {
         font-size: 1em;
     }
 
-    #textonoticia2, #textonoticia3 {
-        f
+    .noticiassecundarias {
+        flex-direction: column;
     }
 
     #line2, #line3 {
@@ -365,8 +421,8 @@ header {
     }
 
     .card {
-        width: 48%;
-        height: 350px;
+        width: 100%;
+        height: 290px;
     }
 
     .imgntc2, .imgntc3 {
@@ -376,5 +432,19 @@ header {
         background-size: cover;
         height: 200px;
         width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .logofooter {
+        width: 80%;
+    }
+
+    .direitosautorais {
+        width: 90%;
+        font-size: .8em;
+        margin-bottom: 10px;
     }
 }
